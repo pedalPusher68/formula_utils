@@ -50,7 +50,7 @@ print('FormulaUtils.inchesHg(101325) -> ',FormulaUtils.inchesHg(101325));
 print('FormulaUtils.mmHg(101325) -> ',FormulaUtils.mmHg(101325));
 print('FormulaUtils.atmospheresHg(29.9213) -> ',FormulaUtils.atmospheresHg(29.9213));
 print('FormulaUtils.atmospheresP(101325) -> ',FormulaUtils.atmospheresP(101325));
-print('FormulaUtils.lengthF(1/12) -> ',FormulaUtils.lengthF(1.0/12.0));
+print('FormulaUtils.lengthF((2.54/100.0) * 12) -> ',FormulaUtils.lengthF((2.54/100.0) * 12));
 print('FormulaUtils.computeDewpoint(4.6, 50.89) -> ',FormulaUtils.computeDewpoint(4.6, 50.89));
 print('FormulaUtils.computeAltitude(103245.5, 101325.0) -> ',FormulaUtils.computeAltitude(103245.5, 101325.0));
 ```
